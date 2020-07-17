@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="LinkToGoogle">
+            <a href="index.html">
+                <img id="GoogleIcon" src="myGoogle.png">
+            </a>
+            
+        </div>
+        <div class="AdvImg">
+            <label>Advanced Search</label>            
+            <p></p>
+        </div>
+
+        <div style="margin-left: 30px;">
+            <hr style="color:lightgray;">
+            <form action="https://google.com/search" method="GET">
+                <p></p>
+                
+                <label style="font-family: Arial;font-size:16px; margin-bottom: 10px;">Find Pages with...</label>
+                <p></p>
+                <table>
+                    <tr>
+                        <td>
+                        All these words:</td>
+                        <td>
+                        <input id="AdvImgForms" type="text" name="as_q" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td>This exact word or phrase:</td>
+                        <td><input id="AdvImgForms" type="text" name="as_epq" size="50">
+                        </td>
+                    </tr> 
+                        <td>Any of these words:</td>
+                        <td><input id="AdvImgForms" type="text" name="as_oq" size="50">
+                        </td>
+                    <tr>
+                        <td>None of these words:</td>
+                        <td><input id="AdvImgForms" type="text" name="as_eq" size="50">
+                        </td>
+                    </tr>
+
+                    <input type="hidden" name="as_st" value="y">
+                    <input type="hidden" name="tbm" value="isch">
+                    <input type="hidden" name="hl" value="en">
+                    
+                    <!--Adding default Google Advanced Search Parameters-->
+                    <input type="hidden" name="imgsz" value="">
+                    <input type="hidden" name="imgar" value="">
+                    <input type="hidden" name="imgc" value="">
+                    <input type="hidden" name="imgcolor" value="">
+                    <input type="hidden" name="imgtype" value="">
+                    <input type="hidden" name="cr" value="">
+                    <input type="hidden" name="as_sitesearch" value="">
+                    <input type="hidden" name="safe" value="images">
+                    <input type="hidden" name="as_filetype" value="">
+                    <input type="hidden" name="tbs" value="">
+                    <tr>
+                        <td>                           
+                        </td>
+                        <td>
+                            <input id="advsubmitbutton" type="submit" value="Advanced Search">
+                        </td>
+                    </tr>
+                </table>
+                
+
+
+            </form>
+        </div>
+    </body>
+</html>

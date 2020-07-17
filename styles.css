@@ -1,0 +1,98 @@
+ .frame {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 150px;
+}
+
+table {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+img {
+    max-width: 360px;
+}
+
+#textform {
+    border-radius: 25px;
+    padding: 10px;
+    width: 600px;
+    height: 30px;
+    border-width:1px;
+    border-color:lightgray;
+
+}
+
+#submitbutton {
+    border:none;
+    font-size: 14px;
+
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-bottom:11px;
+    margin-left: 4px;
+
+    padding-left: 16px;
+    padding-bottom: 0px;
+    padding-right: 16px;
+    padding-top: 0px;
+
+    height: 36px;
+    border-radius: 4px;
+    background-color:rgb(241, 241, 241);
+    color:rgb(105, 105, 105);
+}
+
+#submitbutton:hover {
+    border:lightgray;
+    border-width: 1px;
+    color:black;
+}
+
+#advsubmitbutton {
+    margin-top: 10px; margin-left: 265px; background-color:  #4d90fe; color:white; font-size: x-small; font-weight: bold; padding:3%; border:none;
+}
+#advsubmitbutton:hover {
+    background-color:#2e7eff;
+}
+#GoogleIcon {
+    max-width: 150px;
+}
+
+.AdvImg {
+    color:rgb(224, 53, 53);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 80px;
+
+}
+
+#AdvImgForms {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    border-color:gainsboro;
+    margin-bottom: 5px;
+    border-width: 1px;
+    margin-left: 10px;
+}
+
+.SearchLinks {
+    /*margin-left:90%; */
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    padding: 10px;
+    font-family: Arial; 
+    font-size:small; 
+    color:blue
+}
+
+.LinkToGoogle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+}
